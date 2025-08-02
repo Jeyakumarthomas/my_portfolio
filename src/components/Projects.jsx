@@ -5,7 +5,7 @@ import websiteBlog from '../assets/website-blog.jpg'
 
 const Projects = () => {
   return (
-    <section className='flex flex-col px-5 py-20 justify-center bg-primary text-white'>
+    <section id="projects" className='flex flex-col px-5 py-20 justify-center bg-primary text-white'>
         <div className='w-full'>
             <div className='flex flex-col px-10 py-5'>
                  <h2 className="text-4xl border-b-4 border-[#2b2d77] mb-4 w-[135px] font-bold">Projects</h2> 

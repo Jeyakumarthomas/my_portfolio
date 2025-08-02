@@ -2,7 +2,7 @@
 
 const Contact = () => {
     return(
-        <section className="flex flex-col bg-primary px-5 py-32" >
+        <section id="contact" className="flex flex-col bg-primary px-5 py-32" >
             <div className="flex flex-col items-center text-white">
                 
                 <h2 className="text-4xl  border-b-4 border-[#2b2d33] mb-4 w-[135px] font-bold">Contact</h2>

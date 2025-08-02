@@ -9,19 +9,20 @@ const Header = () => {
     <a href="#" className='font-bold text-black'>Jeyakumar</a>
     <nav className='hidden sm:block'>
         <ul className='flex text-white'>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
+            <li className='hover:text-blue-400'><a href="/">Home</a></li>
+            <li className='hover:text-blue-400'><a href="#about">About</a></li>
+            <li className='hover:text-blue-400'><a href="#projects">Projects</a></li>
+            <li className='hover:text-blue-400'><a href="#resume">Resume</a></li>
+            <li className='hover:text-blue-400'><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     {toggleMenu&&<nav className='block sm:hidden'>
-        <ul className='flex flex-col text-white mobile-nav'>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+        <ul onClick={()=>{setToggleMenu(!toggleMenu)}} className='flex flex-col text-white mobile-nav'>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>}
 

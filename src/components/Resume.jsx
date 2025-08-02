@@ -2,9 +2,9 @@ import resumeImg from "../assets/resume.jpg"
 
 const Resume = () => {
     return(
-        <section className="flex flex-col md:flex-row bg-secondary px-5">
+        <section id="resume" className="flex flex-col md:flex-row bg-secondary px-5">
 
-            <div className="md:w-1/2 py-5 flex justify-end">
+            <div className="md:w-1/2 py-5 flex justify-center md:justify-end">
                 <img src={resumeImg} alt="My Resume" className="w-[300px]"/>
             </div>
             

@@ -16,11 +16,11 @@ header ul li {
 }
 
 .mobile-nav{
-    @apply fixed top-10 bg-gray-600 w-full h-1/4 left-0
+    @apply fixed top-10 bg-blue-900 w-full h-1/4 left-0 text-white opacity-70;
 }
 
 .mobile-nav li {
-    @apply w-full h-full text-center border-b-2
+    @apply w-full h-full text-center bg-[#5551e3] hover:text-[#000] duration-300
 }
 
 .project-desc{
@@ -29,4 +29,8 @@ header ul li {
 
 .btn{
     @apply bg-[#5551e3] px-5 py-2  font-bold hover:border-2 border-white rounded-2xl;
+}
+
+html{
+    scroll-behavior : smooth
 }
