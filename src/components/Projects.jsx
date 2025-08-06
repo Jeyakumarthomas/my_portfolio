@@ -1,14 +1,14 @@
 import React from 'react'
-import projectImg from '../assets/food-ecommerce.jpg'
+import todoApp from '../assets/todo-app.png'
 import websiteImg from '../assets/ecommerce-websites.jpg'
-import websiteBlog from '../assets/website-blog.jpg'
+import nodeAPI from '../assets/node_API_image.png'
 
 const Projects = () => {
     const config = {
         project : [
             {
-                image :projectImg,
-                description :"A Ecommerce website Build With MERN Stack",
+                image :todoApp,
+                description :"A todo Application with LocalStorage feature",
                 link : ""
             },
             {
@@ -17,8 +17,8 @@ const Projects = () => {
                 link : ""
             },
             {
-                image :websiteBlog,
-                description :"A Ecommerce website Build With MERN Stack",
+                image :nodeAPI,
+                description :"An API we can use it to perform CRUD operations",
                 link : ""
             }
         ] 
